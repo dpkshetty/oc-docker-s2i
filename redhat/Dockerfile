@@ -2,5 +2,5 @@
 
 FROM registry.access.redhat.com/ubi7:latest
 
-CMD ["/bin/bash", "-c", "sleep infinity"]
-# CMD ["/bin/bash", "-c", "--", "while true; do sleep 30; done;"]
+# se cambio parametro del documento para la siguiente prueba
+CMD ["/bin/bash", "-c", "--", "while true; do sleep 30; done;"]
